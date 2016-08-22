@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/lyt_main_menu"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@mipmap/normalbutton_normal">
+        <ImageButton
+            android:id="@+id/ibtn_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:background="@null"
+            android:layout_gravity="center"/>
+        <TextView
+            android:id="@+id/txt_title_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="资讯"
+            android:textSize="24sp"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:layout_weight="1"/>
+        <ImageButton
+            android:id="@+id/ibtn_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/lyt_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+
+</LinearLayout>

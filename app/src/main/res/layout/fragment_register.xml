@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/edt_user_mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入邮箱地址"/>
+    <EditText
+        android:id="@+id/edt_user_called"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入昵称"/>
+    <EditText
+        android:id="@+id/edt_user_pwd_regsiter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入密码"
+        />
+    <Button
+        android:id="@+id/btn_register_now"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/longbutton_normal"
+        android:text="立即注册"
+        android:textColor="#ffffff"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <CheckBox
+            android:id="@+id/chb_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/txt_agree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="我同意"/>
+    </LinearLayout>
+</LinearLayout>
